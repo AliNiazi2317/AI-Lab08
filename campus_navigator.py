@@ -8,7 +8,11 @@ campus = {
         "Academic Block": 200
     },
     "Admin Block": {
-        "Academic Block": 120
+        "Academic Block": 120,
+        "Parking Area": 80
+    },
+    "Parking Area": {
+        "Academic Block": 100
     },
     "Academic Block": {
         "Library": 100
@@ -20,6 +24,7 @@ heuristic = {
     "Hostel": 350,
     "Cafeteria": 260,
     "Admin Block": 150,
+    "Parking Area": 120,
     "Academic Block": 90,
     "Library": 0
 }
