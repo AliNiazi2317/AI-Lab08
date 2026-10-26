@@ -63,12 +63,14 @@ def a_star(start, goal):
             print("Path found by A*:", path)
             print("Total cost of this path:", get_g(path))
             print("Total nodes explored:", explored)
+            print("Goal reached successfully!")
             return path
 
         for neighbour in graph[node]:
             new_path = path + [neighbour]
             frontier.append(new_path)
 
+    print("No path found.")
     return None
 
 
