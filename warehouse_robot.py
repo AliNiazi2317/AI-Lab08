@@ -63,6 +63,7 @@ def a_star(start, goal):
             print("Path found by A*:", path)
             print("Total cost of this path:", get_g(path))
             print("Total nodes explored:", explored)
+            print("Robot reached the Packing Station!")
             return path
 
         for neighbour in warehouse[node]:
